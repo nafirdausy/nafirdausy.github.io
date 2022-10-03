@@ -6,8 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+    
+        .nav li {
+          float: left;
+        }
+    
+        .nav li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+    
+        .nav a:hover {
+          background-color: #111;
+        }
+    
+        .active {
+          background-color: #415d42;
+        }
+      </style>
 </head>
 <body>
+    <div class="nav">
+        <ul>
+          <li><a href="index.html">Biodata</a> </li>
+          <li><a href="" class="active">Portofolio</a></li>
+        </ul>
+      </div>
     <h1>Portofolio</h1> 
     <h2>Pengalaman Saya</h2>
     <table border="1">
@@ -47,7 +82,7 @@
         <li>Bahasa Indonesia</li>
         <li>Bahasa Inggris</li>
     </ul>
-        <a href="latihan.html">
+        <a href="index.html">
             <input title="kembali ke halaman biodata" type="button" value="Halaman Biodata">
         </a>
 </body>
