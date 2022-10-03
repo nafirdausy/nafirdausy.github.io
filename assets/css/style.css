@@ -1,0 +1,41 @@
+body {
+    background: rgb(238, 240, 231);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+img.anisa{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: rgb(39, 33, 33);
+    text-align: center;
+}
+  
+p, li {
+    font-family: verdana;
+    font-size: 15px;
+    color: rgb(34, 52, 52);
+}
+
+div {
+  font-family: verdana;
+  font-size: 15px;
+  color: rgb(39, 54, 128);
+}
+
+input {
+  background-color: #415d42; 
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
